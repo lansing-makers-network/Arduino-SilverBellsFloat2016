@@ -110,7 +110,7 @@ extern "C" void ICACHE_RAM_ATTR espShow(
 
 #include <SPI.h>
 #define spi_out(n) (void)SPI.transfer(n)
-//#define AVR_SPI
+#define AVR_SPI
 
 void Adafruit_NeoPixel::show(void) {
 
